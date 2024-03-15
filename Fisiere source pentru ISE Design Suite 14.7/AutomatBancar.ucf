@@ -1,0 +1,34 @@
+# Pin assignment for LEDs
+NET "pinled"       LOC = g1 ; 
+NET "leddep"       LOC = p4 ; 
+NET "ledret"       LOC = n4 ; 
+NET "schimbpinled" LOC = n5 ; 
+NET "errled"       LOC = p6 ; 
+# Pin assignment for slide switches
+NET "mii" LOC = n3; 
+NET "sute" LOC = e2; 
+NET "zeci" LOC = f3; 
+NET "unit" LOC = g3; 
+
+NET "op2" LOC = b4; 
+NET "op3" LOC = k3;
+NET "op4" LOC = l3;
+NET "startstop" LOC = p11;
+# Pin assignment for pushbutton switches
+NET "op1" LOC = a7; 
+NET "enterrr"		 LOC = m4; 
+NET "nextstate"    LOC = c11;
+# Pin assignment for 7-segment displays
+NET "catod<6>"       LOC = l14  ;
+NET "catod<5>"       LOC = h12  ;
+NET "catod<4>"       LOC = n14  ;
+NET "catod<3>"       LOC = n11  ;
+NET "catod<2>"       LOC = p12  ;
+NET "catod<1>"       LOC = l13  ;
+NET "catod<0>"       LOC = m12  ; 
+NET "an<3>"       LOC = f12; 
+NET "an<2>"       LOC = j12; 
+NET "an<1>"       LOC = m13; 
+NET "an<0>"       LOC = k14; 
+# Pin assignment for clock
+NET "system_clk" LOC = b8; 
